@@ -43,7 +43,7 @@ eval "$(pyenv init -)"
 if [ "${YCM_PYTHON_VERSION}" == "2.7" ]; then
   # Tests are failing on Python 2.7.0 with the exception
   # "TypeError: argument can't be <type 'unicode'>"
-  PYENV_VERSION="2.7.1"
+  PYENV_VERSION="2.7.3"
 else
   PYENV_VERSION="3.4.0"
 fi

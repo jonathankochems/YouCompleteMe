@@ -17,7 +17,6 @@ env:
     - COVERAGE=true
   matrix:
     - YCM_PYTHON_VERSION=2.7
-    - YCM_PYTHON_VERSION=3.4
 addons:
   apt:
     sources:

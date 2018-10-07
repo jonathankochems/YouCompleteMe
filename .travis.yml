@@ -1,3 +1,5 @@
+os:
+- osx
 language: generic
 sudo: false
 before_install:

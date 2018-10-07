@@ -7,7 +7,7 @@ before_install:
 install:
   # source because it sets up env vars on some platforms
   - source ci/travis/travis_install.sh
-script: ./run_tests.py
+script: ./install.py
 after_success:
   - codecov
 env:
